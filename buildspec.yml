@@ -1,10 +1,8 @@
-# buildspec.yml
-# 各コマンドの前のハイフン(-)がすべて同じ階層になるように注意してください。
 version: 0.2
 
 env:
   variables:
-    AWS_ACCOUNT_ID: "363539511836" 
+    AWS_ACCOUNT_ID: "363539511836"
     AWS_DEFAULT_REGION: "us-east-1"
     IMAGE_REPO_NAME: "my-webapp-repo-github"
     ECS_CLUSTER_NAME: "my-cluster"
